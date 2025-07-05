@@ -1,0 +1,9 @@
+name: Sample
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+  push:               # Optional: triggers on push to any branch
+
+jobs:
+  call-docker-build:
+    uses: nmanoj5598/RootWorkflow//.github/workflows/root.yaml@master
