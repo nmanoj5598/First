@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-docker-build:
-    uses: nmanoj5598/RootWorkflow/.github/workflows/root.yaml@master
+    uses: nmanoj5598/RootWorkflow/.github/workflows/root.yaml@main
